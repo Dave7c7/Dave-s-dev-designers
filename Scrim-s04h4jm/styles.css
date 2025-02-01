@@ -1,0 +1,33 @@
+body{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    border: 0px;
+    background-size: cover;
+    background-image: url("img/faded-office.png");
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#main{
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+.Content{
+    padding: 40px;
+}
+#title{
+    font-size: 20rem;
+    font-weight: 800;    
+}
+#btn-chat{
+    font-family: inherit;
+    background: #0ea5e9;
+    color: aliceblue;
+    border: none;
+    padding: 15px 20px;
+}
